@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "2022",
+  "description": "📷 of Long Nhat Nguyen",
+  "version": "1.0.0",
+  "author": "Long Nhat Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-emilia": "3.0.2",
+    "gatsby": "4.4.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
