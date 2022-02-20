@@ -13,4 +13,4 @@ The site is now running at `http://localhost:8000`!
 
 ## License
 
-Licensed under the [CC0-1.0](LICENSE) license.
+Licensed under the [MIT](LICENSE) license.
