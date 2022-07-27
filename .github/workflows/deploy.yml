@@ -1,4 +1,4 @@
-name: Deploy Site
+name: GitHub Pages Gatsby CI
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Run Gatsby
-        run: npm run build
+        run: npm run publish
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push'
