@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/2022",
   siteMetadata: {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `2022`,
