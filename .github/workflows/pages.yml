@@ -2,9 +2,7 @@ name: Deploy Gatsby site to Pages
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -49,7 +47,7 @@ jobs:
         run: npm install --legacy-peer-deps
       - name: Build with Gatsby
         env:
-          PREFIX_PATHS: 'true'
+          PREFIX_PATHS: "true"
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -57,7 +55,6 @@ jobs:
           path: ./public
 
   deploy:
-    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
