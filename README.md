@@ -12,7 +12,3 @@ npm run develop
 ```
 
 The site is now running at `http://localhost:8000`!
-
-## License
-
-Licensed under the [MIT](LICENSE) license.
