@@ -2,9 +2,8 @@
   "private": true,
   "name": "2022",
   "description": "Photos by Long Nhat Nguyen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Long Nhat Nguyen",
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
