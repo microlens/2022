@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "2022",
-  "description": "Photos by Long Nhat Nguyen",
-  "version": "1.2.0",
+  "name": "@area44/gatsby-starter-emilia",
+  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
+  "version": "2.0.0",
   "author": "Long Nhat Nguyen",
   "scripts": {
     "build": "gatsby build",

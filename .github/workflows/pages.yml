@@ -2,7 +2,7 @@ name: Deploy Gatsby site to Pages
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -29,6 +29,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
@@ -40,15 +44,15 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public') }}
+          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public', 'pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        run: npm install
+        run: pnpm i
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: "true"
-        run: npm run build
+        run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

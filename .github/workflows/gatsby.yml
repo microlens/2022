@@ -2,10 +2,7 @@ name: Build with Gatsby
 
 on:
   pull_request:
-    branches: [main]
-
-permissions:
-  contents: read
+    branches: ["main"]
 
 defaults:
   run:
@@ -21,6 +18,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
@@ -36,8 +37,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: "true"
-        run: npm run build
+        run: pnpm run build
