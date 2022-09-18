@@ -7,8 +7,8 @@ Minimalistic portfolio/photography site with masonry grid, page transitions and 
 ## Installation
 
 ```sh
-pnpm install
-pnpm run develop
+npm install
+npm run develop
 ```
 
 The site is now running at `http://localhost:8000`!

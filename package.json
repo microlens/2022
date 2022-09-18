@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "@area44/gatsby-starter-emilia",
+  "name": "@retro90s/gatsby-starter-emilia",
   "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
   "version": "2.0.0",
-  "author": "Long Nhat Nguyen",
+  "author": "Retro90s",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
