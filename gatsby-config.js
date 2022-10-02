@@ -6,8 +6,8 @@ module.exports = {
     siteHeadline: `2022 | 📷 by Long Nhat Nguyen`,
     siteUrl: `https://retro90s.github.io/2022`,
     siteDescription: "Photos by Long Nhat Nguyen",
-    siteLanguage: `en`,
-    author: `@torn4dom4n`,
+    siteImage: `/banner.jpg`,
+    author: `@retro90s`,
   },
   plugins: [
     {
@@ -31,7 +31,9 @@ module.exports = {
         description: `Photos by Long Nhat Nguyen`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#3182ce`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -47,5 +49,5 @@ module.exports = {
         ],
       },
     },
-  ],
+  ].filter(Boolean),
 }

@@ -4,5 +4,6 @@
   "labels": [
     "renovate"
   ],
-  "automerge": false
+  "automerge": false,
+  "rangeStrategy": "bump"
 }
