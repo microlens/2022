@@ -12,11 +12,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-emilia": "4.0.1",
-    "gatsby": "4.24.1",
-    "gatsby-plugin-manifest": "4.24.0",
-    "gatsby-plugin-sitemap": "5.24.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@lekoarts/gatsby-theme-emilia": "^4.0.1",
+    "gatsby": "^4.24.1",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-sitemap": "^5.24.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
