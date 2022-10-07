@@ -14,6 +14,8 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
         name: `2022`,
+        socialMedia: {[]},
+        showThemeAuthor: false,
         location: `Vietnam`,
       },
     },
