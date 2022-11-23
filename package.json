@@ -2,7 +2,7 @@
   "private": true,
   "name": "@retro90s/gatsby-starter-emilia",
   "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "Retro90s",
   "scripts": {
     "build": "gatsby build",
