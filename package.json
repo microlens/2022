@@ -12,7 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-emilia": "^5.0.3",
+    "@lekoarts/gatsby-theme-emilia": "^5.0.4",
     "gatsby": "^5.3.3",
     "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-sitemap": "^6.3.1",
