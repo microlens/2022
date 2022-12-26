@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `2022`,
-    siteTitleAlt: `2022 | 📷 by Long Nhat Nguyen`,
-    siteHeadline: `2022 | 📷 by Long Nhat Nguyen`,
+    siteTitleAlt: `2022 | The Zodiac`,
+    siteHeadline: `2022 | The Zodiac`,
     siteUrl: `https://retro90s.github.io/2022`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteImage: `/banner.jpg`,
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `2022 | 📷 by Long Nhat Nguyen`,
+        name: `2022 | The Zodiac`,
         short_name: `2022`,
         description: `Photos by Long Nhat Nguyen`,
         start_url: `/`,
