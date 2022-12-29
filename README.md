@@ -1,4 +1,4 @@
-# 2022 | 📷 by Long Nhat Nguyen
+# 2022 | The Zodiac
 
 [![GitHub Pages Gatsby CI](https://github.com/Retro90s/2022/actions/workflows/pages.yml/badge.svg)](https://github.com/Retro90s/2022/actions/workflows/pages.yml)
 
