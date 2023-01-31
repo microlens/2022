@@ -4,10 +4,10 @@ module.exports = {
     siteTitle: `2022`,
     siteTitleAlt: `2022 | The Zodiac`,
     siteHeadline: `2022 | The Zodiac`,
-    siteUrl: `https://retro90s.github.io/2022`,
+    siteUrl: `https://microlens.github.io/2022`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteImage: `/banner.jpg`,
-    author: `@retro90s`,
+    author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -34,9 +34,6 @@ module.exports = {
         description: `Photos by Long Nhat Nguyen`,
         start_url: `/`,
         background_color: `#fff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -45,8 +42,8 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-384x384.png`,
+            sizes: `384x384`,
             type: `image/png`,
           },
         ],

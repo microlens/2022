@@ -1,6 +1,6 @@
 # 2022 | The Zodiac
 
-[![GitHub Pages Gatsby CI](https://github.com/Retro90s/2022/actions/workflows/pages.yml/badge.svg)](https://github.com/Retro90s/2022/actions/workflows/pages.yml)
+[![GitHub Pages Gatsby CI](https://github.com/Microlens/2022/actions/workflows/pages.yml/badge.svg)](https://github.com/Microlens/2022/actions/workflows/pages.yml)
 
 Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emilia`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
 
