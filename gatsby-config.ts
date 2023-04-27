@@ -1,12 +1,13 @@
-module.exports = {
+import type { GatsbyConfig, PluginRef } from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `2022`,
     siteTitleAlt: `2022 | The Zodiac`,
     siteHeadline: `2022 | The Zodiac`,
     siteUrl: `https://microlens.github.io/2022`,
     siteDescription: "Photos by Long Nhat Nguyen",
-    siteImage: `/banner.jpg`,
+    siteImage: `/og-image.jpg`,
     author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
@@ -49,5 +50,7 @@ module.exports = {
         ],
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean) as Array<PluginRef>,
 }
+
+export default config
