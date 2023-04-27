@@ -1,6 +1,7 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
+  pathPrefix: `/2022`,
   siteMetadata: {
     siteTitle: `2022`,
     siteTitleAlt: `2022 | The Zodiac`,
@@ -8,6 +9,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://microlens.github.io/2022/`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteImage: `/og-image.jpg`,
+    siteLanguage: `en`,
     author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
