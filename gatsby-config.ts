@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     siteTitle: `2022`,
     siteTitleAlt: `2022 | The Zodiac`,
     siteHeadline: `2022 | The Zodiac`,
-    siteUrl: `https://microlens.github.io/2022`,
+    siteUrl: `https://microlens.github.io/2022/`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteImage: `/og-image.jpg`,
     author: `@torn4dom4n`,
